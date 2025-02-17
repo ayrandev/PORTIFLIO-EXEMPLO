@@ -47,6 +47,4 @@ O `style.css` define:
 - Adicionar animações CSS
 - Implementar um modo escuro
 - Criar versão com JavaScript para interação
-
-## Contato
-Criado por Joana Santos. Entre em contato pelo Instagram ou GitHub através dos links fornecidos no portfólio.
+- Criar paginas para navegação
