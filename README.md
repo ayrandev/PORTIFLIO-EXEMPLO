@@ -26,7 +26,7 @@ portfolio/
 ## Como Usar
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/ayrandev/PORTIF-LIO-EXEMPLO
+   git clone https://github.com/ayrandev/PORTIFLIO-EXEMPLO
    ```
 2. Abra o arquivo `index.html` no navegador.
 
