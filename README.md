@@ -45,6 +45,6 @@ O `style.css` define:
 
 ## Melhorias Futuras
 - Adicionar animações CSS
-- Implementar um modo escuro
+- Implementar um modo dia/noturno
 - Criar versão com JavaScript para interação
 - Criar paginas para navegação

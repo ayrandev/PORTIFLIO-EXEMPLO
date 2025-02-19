@@ -47,20 +47,38 @@ body{
 
 .buttons{
     display: flex;
+    align-items: center;
+    flex-direction: column;
     gap: 20px;
 }
 
+.buttons__title{
+    font-family: "Krona One", serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
 .buttons__links {
-    background-color: #22D4FD;
-    width: 250px;
+    background-color:transparent;
+    border: solid 2px #22D4FD;
+    width: 320px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 24px;
     padding: 14px 0;
-    color: #000;
+    color: #F6F6F6;
     font-family: "Montserrat", serif;
-    font-weight: 600;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
 }
+.buttons__links:hover {
+    background-color: #272727;
+}
+
 
 .image-perfil{
     width: 350px;
