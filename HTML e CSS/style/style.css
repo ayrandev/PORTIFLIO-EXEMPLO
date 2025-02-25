@@ -12,6 +12,22 @@ body{
     box-sizing: border-box;
 }
 
+.cabecalho {
+    padding: 2% 0 0 10%;
+}
+
+.cabecalho__menu{
+display: flex;
+gap: 80px;
+}
+
+.cabecalho__menu__link{
+    font-family: "Montserrat", serif;
+    font-size: 20px;
+    color: #22D4FD;
+    font-weight: 500;
+}
+
 .titulo-destaque{
     color: #22D4FD;
     font-family: sans-serif;
@@ -21,11 +37,11 @@ body{
 
 
 .about{
-    margin:10% 15%;
+    padding:10%;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2px;
+    justify-content: space-between;
 }
 
 .about-conteudo {
@@ -54,7 +70,7 @@ body{
 
 .buttons__title{
     font-family: "Krona One", serif;
-    font-weight: 400;
+    font-weight: 100;
     font-size: 24px;
 }
 
@@ -65,7 +81,7 @@ body{
     text-align: center;
     border-radius: 8px;
     font-size: 24px;
-    padding: 14px 0;
+    padding: 4px 0;
     color: #F6F6F6;
     font-family: "Montserrat", serif;
     font-weight: 400;
@@ -79,7 +95,18 @@ body{
     background-color: #272727;
 }
 
-
 .image-perfil{
     width: 350px;
+}
+
+.rodape {
+    color:#F6F6F6;
+    border-top: 1px solid #22D4FD;
+    background-color: transparent;
+    padding: 12px;
+    text-align: center;
+    font-family: "Montserrat", serif;
+    display: flex;
+    justify-content: center;
+    
 }
