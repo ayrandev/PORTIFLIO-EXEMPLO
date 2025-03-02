@@ -46,7 +46,7 @@ gap: 80px;
 
 
 .about{
-    padding:10%;
+    padding:8%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,15 +57,22 @@ gap: 80px;
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 28px;
+    gap: 20px;
 }
 
-.about-conteudo-tittle{
+.about__tittle{
+    font-size: 1.25rem;
+    font-family: var(--font-principal);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.about__titulo__destaque{
     font-size: 1.50rem;
     font-family: var(--font-principal);
+    color: var(--text-destaque-color);
 }
-
-.about-conteudo-tittle-description{
+.about__conteudo-__ittle__description{
     padding: 2% 5% 0 0;
     font-size: 1.25rem;
     font-family: var(--font-title);
@@ -107,6 +114,8 @@ gap: 80px;
 
 .image-perfil{
     width: 40%;
+    border-radius: 100%;
+    border: 2px solid var(--text-destaque-color);
 }
 
 .rodape {
