@@ -51,7 +51,7 @@ gap: 80px;
 
 
 .about{
-    padding:8%;
+    padding:auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -155,10 +155,10 @@ gap: 80px;
         gap: 20px;
   }
     .about__conteudo {
-       width: 300px;
+       width: 60%;
   }
     .image-perfil {
-        width: 300px;
+        width: 40%;
         margin-bottom: 10px;
   }
 }
