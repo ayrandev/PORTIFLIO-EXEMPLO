@@ -51,7 +51,7 @@ gap: 80px;
 
 
 .about{
-    padding:auto;
+    padding: 8%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,7 +77,7 @@ gap: 80px;
     font-family: var(--font-principal);
     color: var(--text-destaque-color);
 }
-.about__conteudo-__ittle__description{
+.about__conteudo__ittle__description{
     padding: 2% 5% 0 0;
     font-size: 1.25rem;
     font-family: var(--font-title);
@@ -85,8 +85,8 @@ gap: 80px;
 
 .buttons{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    flex-direction: column;
     gap: 20px;
 }
 
@@ -155,10 +155,10 @@ gap: 80px;
         gap: 20px;
   }
     .about__conteudo {
-       width: 60%;
+       width: 90%;
   }
     .image-perfil {
-        width: 40%;
+        width: 70%;
         margin-bottom: 10px;
   }
 }
