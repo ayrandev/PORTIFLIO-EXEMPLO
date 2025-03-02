@@ -155,10 +155,10 @@ gap: 80px;
         gap: 20px;
   }
     .about__conteudo {
-       width: 90%;
+       width: 100%;
   }
     .image-perfil {
-        width: 70%;
+        width: 80%;
         margin-bottom: 10px;
   }
 }
