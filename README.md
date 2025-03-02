@@ -1,16 +1,21 @@
 # Documentação do Projeto - Portfólio Simples
 
 ## Descrição
-Este é um projeto de portfólio simples desenvolvido utilizando apenas HTML e CSS. O objetivo é criar uma página responsiva e elegante para apresentar informações pessoais, experiências e projetos.
+Este é um projeto de landing page simples desenvolvido utilizando apenas HTML e CSS. O objetivo é criar uma página responsiva e elegante para apresentar informações pessoais e experiências .
 
 ## Estrutura do Projeto
 
 ```
 portfolio/
 │-- index.html
-│-- style.css
-│-- images/
-│   ├── Imagem.png
+│-- about.html
+│-- style
+│   ├──style.css
+│-- assets/
+│   ├── github.png
+│   ├── Instagram.png
+│   ├── LinkedIn.png
+│   ├── PerfilImage.png
 │-- README.md
 ```
 
@@ -26,7 +31,7 @@ portfolio/
 ## Como Usar
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/ayrandev/PORTIFLIO-EXEMPLO
+   git clone https://github.com/ayrandev/app-landing-page-ayran
    ```
 2. Abra o arquivo `index.html` no navegador.
 
@@ -47,4 +52,3 @@ O `style.css` define:
 - Adicionar animações CSS
 - Implementar um modo dia/noturno
 - Criar versão com JavaScript para interação
-- Criar paginas para navegação
