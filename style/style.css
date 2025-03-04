@@ -151,6 +151,8 @@ gap: 80px;
         justify-content: center;
     }
     .about {
+        padding: 5%;
+        justify-content: center;
         flex-direction: column-reverse;
         gap: 20px;
   }
@@ -161,6 +163,11 @@ gap: 80px;
         width: 80%;
         margin-bottom: 10px;
   }
+    .buttons{
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
 }
 @keyframes pulse-border {
     0% {
