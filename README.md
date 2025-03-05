@@ -16,6 +16,8 @@ portfolio/
 │   ├── Instagram.png
 │   ├── LinkedIn.png
 │   ├── PerfilImage.png
+│   ├── user.png
+│   ├── whatsapp.png
 │-- README.md
 ```
 
@@ -49,6 +51,4 @@ O `style.css` define:
 - Cores e espaçamentos padronizados
 
 ## Melhorias Futuras
-- Adicionar animações CSS
 - Implementar um modo dia/noturno
-- Criar versão com JavaScript para interação
